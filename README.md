@@ -1,4 +1,4 @@
-[Link for github repository and full app](https://github.com/NikolaGolubovic/fullstack-calendar)
+[Link for github repository and full app](https://github.com/NikolaGolubovic/full-quiz-server-and-build)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
