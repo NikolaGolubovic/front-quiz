@@ -19,10 +19,13 @@ function GuestHomepage() {
       </div>
       <div className="guest-directions">
         <p>
-          If you want better experience, to compare your self with other, you
-          need to <a href="/register">Sign up</a>
+          <strike>
+            If you want better experience, to compare yourself with others, you
+            need to <a href="/register">Sign up</a>
+          </strike>
         </p>
-        <p>Or you can just play</p>
+        <p>Sorry, there are problems with server right now</p>
+        <p>But you can play quiz</p>
         <a className="guest-play-quiz" href="/quiz">
           Play Quiz
         </a>
