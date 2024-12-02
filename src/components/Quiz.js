@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ReactHtmlParser from "react-html-parser";
+// import ReactHtmlParser from "react-html-parser";
 import Spinner from "./Spinner";
 import Score from "./Score";
 
@@ -223,7 +223,7 @@ function Quiz({ nums, quizCreated, user }) {
                   50:50
                 </button>
                 <li className="question-title" key={question.category + index}>
-                  {ReactHtmlParser(question.question)}
+                  {decodeURIComponent(question.question)}
                 </li>
                 {question.solutions.map((el) => {
                   return (
@@ -234,7 +234,7 @@ function Quiz({ nums, quizCreated, user }) {
                       disabled={el.half}
                     >
                       <span className={el.half ? "half" : ""}>
-                        {ReactHtmlParser(el.solution)}
+                        {decodeURIComponent(el.solution)}
                       </span>
                     </button>
                   );
